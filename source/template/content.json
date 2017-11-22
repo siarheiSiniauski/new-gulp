@@ -1,0 +1,35 @@
+{ 
+	"pages" : {
+		"1" : {
+			"title" : "О компании",
+			"link" : "about.html"
+		},
+
+		"2" : {
+			"title" : "Сотрудничество",
+			"link" : "partners.html"
+		},
+
+		"3" : {
+			"title" : "Проекты",
+			"link" : "project.html"
+		},
+
+		"4" : {
+			"title" : "Оплата и доставка",
+			"link" : "orders.html"
+		},
+
+		"5" : {
+			"title" : "Контакты",
+			"link" : "contacts.html"
+		},
+
+		"6" : {
+			"title" : "Акции",
+			"link" : "action.html"
+		}		
+	}
+
+
+}

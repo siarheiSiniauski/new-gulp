@@ -3,7 +3,7 @@
 module.exports = function() {
     $.gulp.task('app-js', function() {
         return $.gulp.src([
-            './source/libs/jquery/dist/jquery.min.js',   
+            './source/libs/jquery/dist/jquery-2.2.4.js',   
             './source/js/common.min.js' // Всегда в конце
             ])
         .pipe($.concat('app.min.js'))
