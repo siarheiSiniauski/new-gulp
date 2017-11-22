@@ -2,7 +2,7 @@
 
 module.exports = function() {
     $.gulp.task('pug', function () {
-        return $.gulp.src('./source/template/*.pug')
+        return $.gulp.src('./source/template/pages/*.pug')
         .pipe($.gp.pug({ pretty: true }))
         .on('error', $.gp.notify.onError(function (error) {
             return {
@@ -10,6 +10,7 @@ module.exports = function() {
                 message: error.message
             }
         }))
-        .pipe($.gulp.dest('./build/'));
+        .pipe($.gulp.dest('./build'))
+        .pipe($.browserSync.stream({once: true}));
     });
 };
