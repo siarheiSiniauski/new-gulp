@@ -26,6 +26,7 @@ $.gulp.task('default', $.gulp.series(
    'clean',
     $.gulp.parallel(
         'imagemin',
+        'fonts',
         'sass',
         'pug',
         'common',
